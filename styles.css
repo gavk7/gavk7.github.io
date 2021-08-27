@@ -1,16 +1,18 @@
 /*
-031D44 - navy
-04395E - deep blue
-62967c - sage
-F5ECE0 - linen
-E5BFB8 - light pink
-D29589- dusty pink
+
+#62967c - sage green
+#90C3D1 - bright blue
+#3A6E73 - teal dark green
+#578694 - dark powder steel green-blue
+#E3DEC7 - paperbag yellow
+#7BA8B5 - powder steelgreen-blue
+beige - clean beige
+
+
+
 */
 /* inspo
-https://www.fortherecord.simonfosterdesign.com/
 https://diogotc.com/#portfolio
-https://zyro.com/preview/reese
-https://zyro.com/preview/dexter
 https://andris.gauracs.com/
 */
 /* --------------------------- General --------------------------- */
@@ -24,7 +26,6 @@ html {
 }
 
 body {
-  color: #031D44;
   background: #FFFFFF;
   margin: 0;
   width: 100%;
@@ -42,15 +43,23 @@ p {
     line-height: 36px;
 }
 
+/* -------- #006600  --*/
+
 blockquote {
-    margin-top: -10px;
-    margin-bottom: 22px;
-    color: #006600;
+    margin-top: 24px;
+    margin-bottom: 38px;
+    color: #3A6E73;
+    background: #E3DEC7;
     margin-left: 236px;
     margin-right: 320px;
-    font-size: 16px;
+    font-size: 24px;
     font-weight: bold;
-    line-height: 26px;
+    line-height: 36px;
+    padding: 30px;
+    text-align: justify;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px; 
+    font-family: 'Caveat', sans-serif;
 }
 
 
@@ -59,7 +68,7 @@ a {
 }
 
 a:hover {
-  color: #3A6E73;
+  color: #578694;
 }
 
 .buzzword {
@@ -78,22 +87,24 @@ h1 {
   width: 100%;
   padding-top: 160px;
   padding-left: 60px;
-  color: #04395e; /* navy */
   margin-top: 0px;
 }
 
 h2 {
-  color:#878787; /* light grey */
   margin-bottom: 10px;
   font-size: 70px;
   text-align: center;
   font-weight: 80;
 }
 
-/* --------------------------- Nav Bar --------------------------- */
+
+i {font-size: 28px; color: white;}
+
+
+
+/* --------------------------- Nav Bar ---------------------------*/
 #top-nav {
   overflow: hidden;
-  background-color: #333333;
   position: fixed;
   top: 0px;
   left: 0px;
@@ -119,8 +130,8 @@ h2 {
 #top-nav li a {
   display: block;
   color: white;
-  text-align: center;
-  padding: 14px 24px;
+  text-align: left;
+  padding: 12px 112px;
   text-decoration: none;
 }
 
@@ -128,9 +139,15 @@ h2 {
   background-color: #3A6E73; /* teal */
 }
 
+#gav-j {
+    font-size: 26px;
+    font-family: Rampart+One, sans-serif;
+}
+
+
 /* --------------------------- Profile Card --------------------------- */
 #home {
-  background: #62967c; /* sage */
+  background: #90C3D1;
   width: 100vw;
   height: 100vh;
   margin-bottom: 100px;
@@ -151,14 +168,11 @@ h2 {
   transform: translate(-50%, -50%);
 }
 
-.blog-card h2 {
-  color:#3A6E73; /* light grey */
+
+.blog-card {
   margin-top: 20px;
-  font-size: 40px;
-  line-height: 1.5;
-  font-weight: 400;
-  font-family: 'Merriweather', serif;
 }
+
 
 .column {
   float: left;
@@ -182,8 +196,13 @@ h2 {
 
 #name-gav {
   font-size: 32px;
-  color: #62967D;
+  color: #578694;
   margin-left: 0vh;
+  margin-top: 10px;
+  font-size: 40px;
+  line-height: 1.5;
+  font-weight: 100;
+  font-family: 'Norican', sans-serif;
 }
 
 .column.column2 p {
@@ -221,7 +240,7 @@ h2 {
   align-items: flex-start;
   max-width: 1050px;
   justify-content: center;
-  margin: 40px auto 100px auto;
+  margin: 70px auto 90px auto;
 }
 
 .skills-container > div {
@@ -229,7 +248,6 @@ h2 {
   text-align: center;
   line-height: 50px;
   font-size: 20px;
-  color: #cdded5;
   padding: 0 10px 0 10px;
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
@@ -237,15 +255,19 @@ h2 {
 }
 
 .adv {
-  background-color: #3A6E73;
+  background-color: #7BA8B5;
+  color: white;
 }
 
 .pro {
-  background-color: #62967c; /* sage */
+  background-color: #3A6E73; /* sage */
+  color: white;
 }
 
 .prov {
-  background-color: #62967c; /* sage */
+  background-color: #E3DEC7; /* sage */
+  color: #3A6E73;
+  box-shadow: inset 0px 3px 12px rgba(0, 0, 0, 0.22);
 }
 
 
@@ -253,36 +275,38 @@ h2 {
 #timeline-title {
   display: flex;
   flex-direction: row;
-  padding: 0 100px 0 100px;
+  padding: 0 260px 0 120px;
 }
 
 .timeline-title-item {
-  margin: 0 240px 0 0;
+  margin: 10px 320px 0 0;
   font-family: 'Merriweather', serif;
   text-align: center;
   list-style-type: none;
-  font-size: 60px;
-  color: #cdded5;
+  font-size: 48px;
+  color: #3A6E73;
 }
+
 .timeline-bkg {
-    background: #62967c;
+    background: #7BA8B5;
     width: 100%;
 }
 
 #timeline {
-  background: #62967c;
+  background: #E3DEC7;
   position: relative;
   width: 100%;
   max-width: 1140px;
   margin: auto;
   padding: 15px 0;
+box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 #timeline::after {
   content: '';
   position: absolute;
   width: 2px;
-  background: #cdded5;
+  background: #3A6E73;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -311,8 +335,8 @@ h2 {
   height: 16px;
   top: calc(50% - 8px);
   right: -8px;
-  background: #62967c;
-  border: 2px solid #cdded5;
+  background: #90C3D1;
+  border: 2px solid #3A6E73;
   border-radius: 16px;
   z-index: 2;
 }
@@ -328,7 +352,7 @@ h2 {
   height: 2px;
   top: calc(50% - 1px);
   right: 8px;
-  background: #cdded5;
+  background: #3A6E73;
   z-index: 2;
 }
 
@@ -343,7 +367,7 @@ h2 {
   text-align: center;
   font-size: 14px;
   font-weight: bold;
-  color: #cdded5;
+  color: #3A6E73;
   text-transform: uppercase;
   letter-spacing: 1px;
   z-index: 2;
@@ -365,12 +389,12 @@ h2 {
   height: 40px;
   padding: 9px 0;
   top: calc(50% - 20px);
-  background: #FFFFFF;
-  border: 2px solid #cdded5;
+  background: #90C3D1;
+  border: 2px solid #3A6E73;
   border-radius: 40px;
   text-align: center;
   font-size: 18px;
-  color: #3A6E73;
+  color: white;
   z-index: 2;
 }
 
@@ -384,9 +408,10 @@ h2 {
 
 .container .content {
   padding: 30px 90px 30px 30px;
-  background: #FFFFFF;
+  background: beige;
   position: relative;
   border-radius: 20px 100px 100px 20px;
+  box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 .container.right .content {
@@ -460,8 +485,8 @@ h2 {
 /* --------------------------- Footer --------------------------- */
 .footer {
   margin-left: 0;
-  background: #3A6E73;
-  padding: 15px 15px 15px 0;
+  background: #62967c;
+  padding: 14px 14px 14px 0;
   color: #FFFFFF;
   text-align: right;
   margin-top: 0;
