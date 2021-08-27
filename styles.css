@@ -30,14 +30,29 @@ body {
   width: 100%;
 }
 
+p, blockquote {
+    font-family: 'Raleway', sans-serif;
+}
+
 p {
     margin-left: 190px;
     margin-right: 190px;
-    font-size: 20px;
-    line-height: 40px;
     color: #3A6E73;
-    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 36px;
 }
+
+blockquote {
+    margin-top: -10px;
+    margin-bottom: 22px;
+    color: #006600;
+    margin-left: 236px;
+    margin-right: 320px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 26px;
+}
+
 
 a {
   color: #62967c;
@@ -167,7 +182,7 @@ h2 {
 
 #name-gav {
   font-size: 32px;
-  color: #62967c;
+  color: #62967D;
   margin-left: 0vh;
 }
 
