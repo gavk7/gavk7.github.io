@@ -191,7 +191,10 @@ i {font-size: 28px; color: white;}
   margin-left: 5.7vh;
   margin-right: 2.6vh;
   border-radius: 2%;
-  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.16), -12px 7px 6px rgba(0, 0, 0, 0.23);
+border:1px solid #1F1232;
+background-color: #3A6E73;
+box-shadow: 0px 3px 5px #000000;
+  /*--box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.16), -12px 7px 6px rgba(0, 0, 0, 0.23);--*/
 }
 
 #name-gav {
@@ -203,6 +206,7 @@ i {font-size: 28px; color: white;}
   line-height: 1.5;
   font-weight: 100;
   font-family: 'Norican', sans-serif;
+text-shadow: 0px 1px 2px #bfbfbf;
 }
 
 .column.column2 p {
