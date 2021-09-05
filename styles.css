@@ -40,26 +40,32 @@ p {
     margin-right: 190px;
     color: #3A6E73;
     font-size: 20px;
-    line-height: 36px;
+    line-height: 30px;
+}
+
+.first-p {
+      margin-top: 100px;
+      margin-bottom: 35px;
 }
 
 /* -------- #006600  --*/
 
 blockquote {
-    margin-top: 24px;
-    margin-bottom: 38px;
+    margin-top: 25px;
+    margin-bottom: 46px;
     color: #3A6E73;
     background: #E3DEC7;
     margin-left: 236px;
     margin-right: 320px;
     font-size: 24px;
     font-weight: bold;
-    line-height: 36px;
-    padding: 30px;
+    padding: 32px;
     text-align: justify;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px; 
     font-family: 'Caveat', sans-serif;
+    line-height: 28px;
+    box-shadow: inset -1px 2px 3px 2px rgba(0, 0, 0, 0.26), inset 2px 6px 2px 1px rgba(0, 0, 0, 0.10);
 }
 
 
@@ -74,7 +80,6 @@ a:hover {
 .buzzword {
   font-weight: 600;
 }
-
 
 /* --------------------------- Headers --------------------------- */
 h1, h2 {
@@ -100,8 +105,6 @@ h2 {
 
 
 i {font-size: 28px; color: white;}
-
-
 
 /* --------------------------- Nav Bar ---------------------------*/
 #top-nav {
@@ -132,7 +135,7 @@ i {font-size: 28px; color: white;}
   display: block;
   color: white;
   text-align: left;
-  padding: 12px 112px;
+  padding: 18px 50px;
   text-decoration: none;
 }
 
@@ -142,43 +145,58 @@ i {font-size: 28px; color: white;}
 
 #gav-j {
     font-size: 26px;
-    font-family: Rampart+One, sans-serif;
+    font-family: Noto+Serif+JP, sans-serif;
 }
 
 
 /* --------------------------- Profile Card --------------------------- */
-#home {
-  background: #90C3D1;
-  width: 100vw;
-  height: 100vh;
-  margin-bottom: 100px;
+#home {font-variant-alternates: ;
+  /*--- background: #90C3D1;---*/
+   display: flex;
+  /*--- width: 100vw; ---*/
+ /*--- height: 100vh; ---*/
+  margin-bottom: 0px;
 }
+
+top-x { position: absolute;
+  top: 76px;
+  right: 10px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.16), -12px 7px 6px rgba(0, 0, 0, 0.23);
+  border:6.5px solid DarkSlateGrey;
+        -moz-border-radius: 10px;
+    -webkit-border-radius: 90px; 
+  }
+
+#four {
+  font-family: Russo+One, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  }
 
 .blog-card {
   display: block;
   width: 600px;
-  height: 422px;
+  height: 408px;
   position: absolute;
-  top: 53%;
+  top: 42%;
   left: 50%;
   margin: auto;
-  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
   overflow: hidden;
   background-color: #FFFFFF;
   z-index: 100;
   transform: translate(-50%, -50%);
-}
-
-
-.blog-card {
   margin-top: 20px;
+   border:10px solid darkslategrey;
+         -moz-border-radius: 10px;
+    -webkit-border-radius: 35px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.16), -12px 7px 6px rgba(0, 0, 0, 0.23);
 }
 
 
 .column {
   float: left;
   padding: 30px;
-  height: 400px;
+  height: 500px;
   width: 50%;
 }
 
@@ -193,21 +211,33 @@ i {font-size: 28px; color: white;}
   margin-right: 2.6vh;
   border-radius: 2%;
 border:1px solid #1F1232;
-background-color: #3A6E73;
+background-color: DarkSlateGrey;
 box-shadow: 0px 3px 5px #000000;
   /*--box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.16), -12px 7px 6px rgba(0, 0, 0, 0.23);--*/
 }
 
 #name-gav {
   font-size: 32px;
-  color: #578694;
+  color: #437070;
   margin-left: 0vh;
   margin-top: 10px;
   font-size: 40px;
   line-height: 1.5;
   font-weight: 100;
   font-family: 'Norican', sans-serif;
-text-shadow: 0px 1px 2px #bfbfbf;
+text-shadow: 0px 1.6px 1.6px rgba(0, 0, 0, 0.29);
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+}
+
+
+.bio {
+    margin-top: 66px;
+    width: 140px;
+    display: flex;
+    justify-content:space-between;
+    border:0;
 }
 
 .column.column2 p {
@@ -216,7 +246,7 @@ text-shadow: 0px 1px 2px #bfbfbf;
   font-size: 20px;
   line-height: 1.5;
   width: 100%;
-  padding-top: 80px;
+  padding-top: 100px;
   padding-left: 10px;
   color: #878787;/* navy */
   margin-top: 0px;
@@ -230,11 +260,11 @@ text-shadow: 0px 1px 2px #bfbfbf;
 }
 
 .column.column2 i:hover {
-  color: #585858; /* dark grey */
+  color: darkslateblue; /* dark grey */
 }
 
 .first-icon {
-  padding-left: 15px;
+  padding-left: 10px;
 }
 
 /* --------------------------- Bio --------------------------- */
@@ -245,7 +275,7 @@ text-shadow: 0px 1px 2px #bfbfbf;
   align-items: flex-start;
   max-width: 1050px;
   justify-content: center;
-  margin: 70px auto 90px auto;
+  margin: 44px auto 56px auto;
 }
 
 .skills-container > div {
@@ -280,11 +310,11 @@ text-shadow: 0px 1px 2px #bfbfbf;
 #timeline-title {
   display: flex;
   flex-direction: row;
-  padding: 0 260px 0 120px;
+  padding: 0 60px 0 100px;
 }
 
 .timeline-title-item {
-  margin: 10px 320px 0 0;
+  margin: 10px 80px 0 0;
   font-family: 'Merriweather', serif;
   text-align: center;
   list-style-type: none;
@@ -301,7 +331,7 @@ text-shadow: 0px 1px 2px #bfbfbf;
   background: #E3DEC7;
   position: relative;
   width: 100%;
-  max-width: 1140px;
+  max-width: 1000px;
   margin: auto;
   padding: 15px 0;
 box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
@@ -500,7 +530,7 @@ box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 /* --------------------------- Responsive --------------------------- */
-@media only screen and (max-width: 1140px) {
+@media only screen and (max-width: 1000px) {
   .timeline-title-item {
     display: none;
   }
@@ -513,7 +543,7 @@ box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
 
   .container {
     width: 100%;
-    padding-left: 120px;
+    padding-left: 80px;
     padding-right: 30px;
   }
 
