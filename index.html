@@ -20,6 +20,18 @@
   <link rel="stylesheet" href="styles.css">
 
   <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Get the div by its id
+    var x2 = document.getElementById('free2');
+    var x3 = document.getElementById('free3');
+    var x4 = document.getElementById('free4');
+
+            // Hide the div
+            x2.style.display = 'none';
+            x3.style.display = 'none';
+            x4.style.display = 'none';
+        });
+
 function ShowAndHide() {
     var x = document.getElementById('free');
     if (x.style.display == 'none') {
