@@ -54,6 +54,7 @@ blockquote {
     margin-top: 21px;
     margin-bottom: 17px;
     color: #3A6E73;
+    background: #F5F0D3;
     margin-left: 236px;
     margin-right: 320px;
     font-size: 34px;
@@ -71,7 +72,7 @@ blockquote {
     margin-top: 21px;
     margin-bottom: 17px;
     color: #3A6E73;
-    background:#c8fab2;
+    background-color:#c8fab2!important;
     margin-left: 236px;
     margin-right: 320px;
     font-size: 34px;
