@@ -68,25 +68,6 @@ blockquote {
     box-shadow: inset -1px 2px 3px 2px rgba(0, 0, 0, 0.26), inset 2px 6px 2px 1px rgba(0, 0, 0, 0.10);
 }
 
-#free3.blockquote {
-    margin-top: 21px;
-    margin-bottom: 17px;
-    color: #3A6E73;
-    background-color:#c8fab2!important;
-    margin-left: 236px;
-    margin-right: 320px;
-    font-size: 34px;
-    font-weight: 600;
-    padding: 32px;
-    text-align: justify;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px; 
-    font-family: 'Caveat', sans-serif;
-    line-height: 28px;
-    box-shadow: inset -1px 2px 3px 2px rgba(0, 0, 0, 0.26), inset 2px 6px 2px 1px rgba(0, 0, 0, 0.10);
-}
-
-
 #free2 {
  display:none;
  padding:0;
