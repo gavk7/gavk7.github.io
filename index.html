@@ -20,64 +20,65 @@
   <link rel="stylesheet" href="styles.css">
 
   <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        // Get the divs by their ids
-        var x2 = document.getElementById('free2');
-        var x3 = document.getElementById('free3');
-        var x4 = document.getElementById('free4');
+        document.addEventListener('DOMContentLoaded', function() {
+            // Get the div by its id
+    var x2 = document.getElementById('free2');
+    var x3 = document.getElementById('free3');
+    var x4 = document.getElementById('free4');
 
-        // Hide the divs
-        x2.style.display = 'none';
+            // Hide the div
+            x2.style.display = 'none';
+            x3.style.display = 'none';
+            x4.style.display = 'none';
+        });
+
+function ShowAndHide() {
+    var x = document.getElementById('free');
+    if (x.style.display == 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+
+function ShowAndHide2() {
+    var x2 = document.getElementById('free2');
+    var x3 = document.getElementById('free3');
+    var x4 = document.getElementById('free4');
+    if (x2.style.display == 'none' || x2.style.display === '') {
+        x2.style.display = 'block';
         x3.style.display = 'none';
         x4.style.display = 'none';
+    } else {
+        x2.style.display = 'none';
+    }
+}
 
-        // Function to show and hide the div 'free'
-        function activateShowAndHideOnHover() {
-            ShowAndHide2();   // Call the ShowAndHide2() function when this function is triggered
-        }
+function ShowAndHide3() {
+    var x3 = document.getElementById('free3');
+    var x2 = document.getElementById('free2');
+    var x4 = document.getElementById('free4');
+    if (x3.style.display == 'none' || x3.style.display === '') {
+        x3.style.display = 'block';
+        x2.style.display = 'none';
+        x4.style.display = 'none';
+    } else {
+        x3.style.display = 'none';
+    }
+}
 
-        // Attach the activateShowAndHideOnHover() function to the mouseover event of the specified element (e.g., free2)
-        x2.addEventListener('mouseover', activateShowAndHideOnHover);
-
-        function ShowAndHide2() {
-            var x2 = document.getElementById('free2');
-            var x3 = document.getElementById('free3');
-            var x4 = document.getElementById('free4');
-            if (x2.style.display == 'none' || x2.style.display === '') {
-                x2.style.display = 'block';
-                x3.style.display = 'none';
-                x4.style.display = 'none';
-            } else {
-                x2.style.display = 'none';
-            }
-        }
-
-        function ShowAndHide3() {
-            var x3 = document.getElementById('free3');
-            var x2 = document.getElementById('free2');
-            var x4 = document.getElementById('free4');
-            if (x3.style.display == 'none' || x3.style.display === '') {
-                x3.style.display = 'block';
-                x2.style.display = 'none';
-                x4.style.display = 'none';
-            } else {
-                x3.style.display = 'none';
-            }
-        }
-
-        function ShowAndHide4() {
-            var x4 = document.getElementById('free4');
-            var x3 = document.getElementById('free3');
-            var x2 = document.getElementById('free2');
-            if (x4.style.display == 'none' || x4.style.display === '') {
-                x4.style.display = 'block';
-                x2.style.display = 'none';
-                x3.style.display = 'none';
-            } else {
-                x4.style.display = 'none';
-            }
-        }
-    });
+function ShowAndHide4() {
+    var x4 = document.getElementById('free4');
+    var x3 = document.getElementById('free3');
+    var x2 = document.getElementById('free2');
+    if (x4.style.display == 'none' || x4.style.display === '') {
+        x4.style.display = 'block';
+        x2.style.display = 'none';
+        x3.style.display = 'none';
+    } else {
+        x4.style.display = 'none';
+    }
+}
 </script>
 </head>
 <body>
