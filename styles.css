@@ -122,6 +122,49 @@ h2 {
 
 i {font-size: 28px; color: white;}
 
+/* --------------------------- Nav Bar ---------------------------*/
+#top-nav {
+  overflow: hidden;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;fs
+  z-index: 100;
+    font-size: 26px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#top-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #62967c;
+  position: fixed;
+  width: 100%;
+}
+
+#top-nav li {
+  float: left;
+}
+
+#top-nav li a {
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 18px 50px;
+  text-decoration: none;
+}
+
+#top-nav li a:hover {
+  background-color: #3A6E73; /* teal */
+}
+
+#gav-j {
+    font-size: 26px;
+    font-family: Noto+Serif+JP, sans-serif;
+}
+
+
 /* --------------------------- Profile Card --------------------------- */
 #home {font-variant-alternates: ;
   /*--- background: #90C3D1;---*/
@@ -299,6 +342,180 @@ background-color:#FFFF00;
 }
 
 
+/* --------------------------- Timeline --------------------------- */
+#timeline-title {
+  display: flex;
+  flex-direction: row;
+  padding: 0 60px 0 100px;
+}
+
+.timeline-title-item {
+  margin: 10px 80px 0 0;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  list-style-type: none;
+  font-size: 48px;
+  color: #3A6E73;
+}
+
+.timeline-bkg {
+    background: #7BA8B5;
+    width: 100%;
+}
+
+#timeline {
+  background: #E3DEC7;
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 15px 0;
+box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+#timeline::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  background: #3A6E73;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -1px;
+}
+
+.container {
+  padding: 15px 30px;
+  position: relative;
+  background: inherit;
+  width: 50%;
+}
+
+.container.left {
+  left: 0;
+}
+
+.container.right {
+  left: 50%;
+}
+
+.container::after {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: calc(50% - 8px);
+  right: -8px;
+  background: #90C3D1;
+  border: 2px solid #3A6E73;
+  border-radius: 16px;
+  z-index: 2;
+}
+
+.container.right::after {
+  left: -8px;
+}
+
+.container::before {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  top: calc(50% - 1px);
+  right: 8px;
+  background: #3A6E73;
+  z-index: 2;
+}
+
+.container.right::before {
+  left: 8px;
+}
+
+.container .date {
+  position: absolute;
+  display: inline-block;
+  top: calc(50% - 8px);
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: #3A6E73;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  z-index: 2;
+  font-family: 'Merriweather', serif;
+}
+
+.container.left .date {
+  right: -90px;
+}
+
+.container.right .date {
+  left: -90px;
+}
+
+.container .icon {
+  position: absolute;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding: 9px 0;
+  top: calc(50% - 20px);
+  background: #90C3D1;
+  border: 2px solid #3A6E73;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  z-index: 2;
+}
+
+.container.left .icon {
+  right: 56px;
+}
+
+.container.right .icon {
+  left: 56px;
+}
+
+.container .content {
+  padding: 30px 90px 30px 30px;
+  background: beige;
+  position: relative;
+  border-radius: 20px 100px 100px 20px;
+  box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.container.right .content {
+  padding: 30px 30px 30px 90px;
+  border-radius: 100px 20px 20px 100px;
+}
+
+.container .content h2 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #3A6E73;
+  justify-content: left;
+  text-align: left;
+  border-bottom: none
+}
+
+.container .content h2.no-content {
+  margin: 0 0 0 0;
+}
+
+.container .content p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 22px;
+  color: #3A6E73;
+  font-family: 'Raleway', sans-serif;
+}
+
+.container .content ul {
+  color: #3A6E73;
+  font-family: 'Raleway', sans-serif;
+}
 
 /* --------------------------- Read More --------------------------- */
 .read-more-state {
@@ -349,8 +566,16 @@ background-color:#FFFF00;
 }
 
 /* --------------------------- Responsive --------------------------- */
+@media only screen and (max-width: 1000px) {
+  .timeline-title-item {
+    display: none;
+  }
+}
 
 @media (max-width: 767.98px) {
+  #timeline::after {
+    left: 90px;
+  }
 
   .container {
     width: 100%;
