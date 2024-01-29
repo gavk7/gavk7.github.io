@@ -154,7 +154,7 @@ top-x { position: absolute;
   top: 76px;
   right: 10px;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.16), -12px 7px 6px rgba(0, 0, 0, 0.23);
-  border:6.5px solid darkslategrey;
+  border:6.5px solid #AD0A51;
         -moz-border-radius: 10px;
     -webkit-border-radius: 90px; 
   }
@@ -189,7 +189,7 @@ cursor: pointer;
   z-index: 100;
   transform: translate(-50%, -50%);
   margin-top: 20px;
-   border:2px solid #3D5F4A;
+   border:1px solid #274548;
          -moz-border-radius: 10px;
     -webkit-border-radius: 35px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.16), -12px 7px 6px rgba(0, 0, 0, 0.23);
