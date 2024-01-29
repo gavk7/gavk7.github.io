@@ -289,7 +289,7 @@ background-color:#FFFF00;
   align-items: flex-start;
   max-width: 1050px;
   justify-content: center;
-  margin: 39px auto 35px auto;
+  margin: 43px auto 31px auto;
 }
 
 .skills-container > div {
@@ -309,7 +309,7 @@ background-color:#FFFF00;
 }
 
 .pro {
-  background-color: #3D5F4A; /* grey green blue */
+  background-color: #354F3F; /* grey green blue */
   color: white;
 }
 
