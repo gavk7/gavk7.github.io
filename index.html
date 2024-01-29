@@ -25,11 +25,13 @@
     var x2 = document.getElementById('free2');
     var x3 = document.getElementById('free3');
     var x4 = document.getElementById('free4');
+    const spc = document.getElementById('spacer');
 
             // Hide the div
             x2.style.display = 'none';
             x3.style.display = 'none';
             x4.style.display = 'none';
+          spc.style.paddingTop = "100px";
         });
 
 function ShowAndHide() {
@@ -45,10 +47,12 @@ function ShowAndHide2() {
     var x2 = document.getElementById('free2');
     var x3 = document.getElementById('free3');
     var x4 = document.getElementById('free4');
+    const spc = document.getElementById('spacer');
     if (x2.style.display == 'none' || x2.style.display === '') {
         x2.style.display = 'block';
         x3.style.display = 'none';
         x4.style.display = 'none';
+        spc.style.display = 'none';
     } else {
         x2.style.display = 'none';
     }
@@ -58,10 +62,12 @@ function ShowAndHide3() {
     var x3 = document.getElementById('free3');
     var x2 = document.getElementById('free2');
     var x4 = document.getElementById('free4');
+    const spc = document.getElementById('spacer');
     if (x3.style.display == 'none' || x3.style.display === '') {
         x3.style.display = 'block';
         x2.style.display = 'none';
         x4.style.display = 'none';
+        spc.style.display = 'none';
     } else {
         x3.style.display = 'none';
     }
@@ -71,10 +77,12 @@ function ShowAndHide4() {
     var x4 = document.getElementById('free4');
     var x3 = document.getElementById('free3');
     var x2 = document.getElementById('free2');
+    const spc = document.getElementById('spacer');
     if (x4.style.display == 'none' || x4.style.display === '') {
         x4.style.display = 'block';
         x2.style.display = 'none';
         x3.style.display = 'none';
+        spc.style.display = 'none';
     } else {
         x4.style.display = 'none';
     }
@@ -93,8 +101,8 @@ function ShowAndHide4() {
       <div class="column column2">
         <p>I am currently a <b>Learning Designer</b> for UQx at the University of Queensland. </p>
         <div class="bio">
-          <a class="first-icon" href='https://gavk7.github.io/index.html' target="_blank"><i class="fab fa-github fa-2x"></i></a>&nbsp;
-          <a href='https://www.linkedin.com/in/gavink7/' target="_blank"><i class="fab fa-linkedin fa-
+          <a class="first-icon" href='https://gavk7.github.io/index.html'  alt="gavk7.github.io/index.html" target="_blank"><i class="fab fa-github fa-2x"></i></a>&nbsp;
+          <a href='https://www.linkedin.com/in/gavink7/' alt="linkedin.com/in/gavink7/" target="_blank"><i class="fab fa-linkedin fa-
 2x"></i></a>&nbsp;&nbsp;
           <a href='TBA' target="_blank"><i class="far fa-file-pdf fa-2x"></i></a>
         </div>
@@ -132,11 +140,11 @@ function ShowAndHide4() {
 <p id="my_skills" style="padding-top:10px">My current professional portfolio provides further details - including my design perspectives and examples of my online course design work.</p>
 <p style="padding-top:10px">Connect with me on LinkedIn or email me at <span class="buzzword">gavink7@yahoo.com</span></p>
   </section>
-
 </div>
+<div id="spacer"><span>&nbsp;</span></div>
 </body>
 <footer>
-  <p class="footer">Gavin Keir &#169; 2021</p>
+  <p class="footer"><a href="mailto:gavink7@gmail.com">Gavin Keir</a> &#169; 2021</p>
 </footer>
 </main>
 </body>
