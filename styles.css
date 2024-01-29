@@ -204,14 +204,14 @@ cursor: pointer;
   margin-right: 2.6vh;
   border-radius: 2%;
 border:1px solid #1F1232;
-background-color: #7AEDFF;
+background-color: #B4F2FB;
 box-shadow: 0px 3px 5px #000000;
   /*--box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.16), -12px 7px 6px rgba(0, 0, 0, 0.23);--*/
 }
 
 #name-gav {
   font-size: 32px;
-  color: #437070;
+  color: #72D6D6;
   margin-left: 0vh;
   margin-top: 10px;
   font-size: 40px;
