@@ -19,26 +19,41 @@
   <link href="https://fonts.googleapis.com/css?family=Merriweather:wght@400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 
-  <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            // Get the div by its id
-    var x2 = document.getElementById('free2');
-    var x3 = document.getElementById('free3');
-    var x4 = document.getElementById('free4');
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Get the div by its id
+  var x2 = document.getElementById('free2');
+  var x3 = document.getElementById('free3');
+  var x4 = document.getElementById('free4');
 
-            // Hide the div
-            x2.style.display = 'none';
-            x3.style.display = 'none';
-            x4.style.display = 'none';
-        });
+  // Hide the div
+  x2.style.display = 'none';
+  x3.style.display = 'none';
+  x4.style.display = 'none';
+});
 
 function ShowAndHide() {
-    var x = document.getElementById('free');
-    if (x.style.display == 'none') {
-        x.style.display = 'block';
-    } else {
-        x.style.display = 'none';
-    }
+  var x = document.getElementById('free');
+  if (x.style.display == 'none') {
+    x.style.display = 'block';
+  } else {
+    x.style.display = 'none';
+  }
+}
+
+function ShowAndHide2() {
+  var x2 = document.getElementById('free2');
+  var x3 = document.getElementById('free3');
+  var x4 = document.getElementById('free4');
+  var button = document.getElementById('four'); // Add this line to define the button variable
+  if (x2.style.display == 'none' || x2.style.display === '') {
+    button.style.backgroundColor = '#d7ffc9';
+    x2.style.display = 'block';
+    x3.style.display = 'none';
+    x4.style.display = 'none';
+  } else {
+    x2.style.display = 'none';
+  }
 }
 
 function ShowAndHide2() {
