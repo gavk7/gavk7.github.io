@@ -151,8 +151,8 @@ i {font-size: 28px; color: white;}
 }
 
 top-x { position: absolute;
-  top: 76px;
-  right: 10px;
+  top: 26px;
+  right: 26px;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.16), -12px 7px 6px rgba(0, 0, 0, 0.23);
   border:6.5px solid #AD0A51;
         -moz-border-radius: 10px;
