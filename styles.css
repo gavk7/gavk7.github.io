@@ -90,6 +90,14 @@ a {
   color: #62967c;
 }
 
+a.port {
+  color: #B72351;
+}
+
+a.port:hover {
+  color: #B72351;
+}
+
 a.gname {
   color: #fff;
 }
@@ -294,12 +302,12 @@ background-color:#FFFF00;
 }
 
 .adv {
-  background-color: #DB1414;  /* red */
+  background-color: #E74D26;  /* red */
   color: white;
 }
 
 .pro {
-  background-color: #187160; /* grey grren blue */
+  background-color: #46A679; /* grey grren blue */
   color: white;
 }
 
