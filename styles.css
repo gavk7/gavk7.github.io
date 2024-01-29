@@ -44,9 +44,9 @@ p {
 }
 
 .first-p {
-      margin-top: 70px;
+      margin-top: 60px;
     font-size: 32px;
-      margin-bottom: 50px;
+      margin-bottom: 60px;
 }
 
 /* -------- #006600  --*/
@@ -189,7 +189,7 @@ cursor: pointer;
   z-index: 100;
   transform: translate(-50%, -50%);
   margin-top: 20px;
-   border:4px solid #E54017;
+   border:10px solid darkslategrey;
          -moz-border-radius: 10px;
     -webkit-border-radius: 35px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.16), -12px 7px 6px rgba(0, 0, 0, 0.23);
@@ -221,8 +221,8 @@ box-shadow: 0px 3px 5px #000000;
 
 #name-gav {
   font-size: 32px;
-  color: #FEF600;
-  /* ---- above was 6A987B --- */
+  color: #61A28D;
+  /* ---- above was ...6A987B --- */
   margin-left: 0vh;
   margin-top: 10px;
   font-size: 40px;
@@ -288,7 +288,7 @@ background-color:#FFFF00;
   align-items: flex-start;
   max-width: 1050px;
   justify-content: center;
-  margin: 43px auto 40px auto;
+  margin: 40px auto 38px auto;
 }
 
 .skills-container > div {
