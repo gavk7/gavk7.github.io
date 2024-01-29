@@ -189,6 +189,17 @@ top-x { position: absolute;
   font-weight: 800;
   }
 
+button {
+cursor: pointer;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a box shadow for a recessed effect */
+      transition: box-shadow 0.3s; /* Add a transition for smooth animation */
+}
+
+    /* Style for button hover effect */
+    button:hover {
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Increase the shadow on hover */
+    }
+
 .blog-card {
   display: block;
   width: 600px;
