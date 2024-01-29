@@ -19,41 +19,26 @@
   <link href="https://fonts.googleapis.com/css?family=Merriweather:wght@400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  // Get the div by its id
-  var x2 = document.getElementById('free2');
-  var x3 = document.getElementById('free3');
-  var x4 = document.getElementById('free4');
+  <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Get the div by its id
+    var x2 = document.getElementById('free2');
+    var x3 = document.getElementById('free3');
+    var x4 = document.getElementById('free4');
 
-  // Hide the div
-  x2.style.display = 'none';
-  x3.style.display = 'none';
-  x4.style.display = 'none';
-});
+            // Hide the div
+            x2.style.display = 'none';
+            x3.style.display = 'none';
+            x4.style.display = 'none';
+        });
 
 function ShowAndHide() {
-  var x = document.getElementById('free');
-  if (x.style.display == 'none') {
-    x.style.display = 'block';
-  } else {
-    x.style.display = 'none';
-  }
-}
-
-function ShowAndHide2() {
-  var x2 = document.getElementById('free2');
-  var x3 = document.getElementById('free3');
-  var x4 = document.getElementById('free4');
-  var button = document.getElementById('four'); // Add this line to define the button variable
-  if (x2.style.display == 'none' || x2.style.display === '') {
-    button.style.backgroundColor = '#d7ffc9';
-    x2.style.display = 'block';
-    x3.style.display = 'none';
-    x4.style.display = 'none';
-  } else {
-    x2.style.display = 'none';
-  }
+    var x = document.getElementById('free');
+    if (x.style.display == 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
 }
 
 function ShowAndHide2() {
@@ -102,7 +87,7 @@ function ShowAndHide4() {
 <body>
     <div id="top-nav"><ul><li style="line-height: 10px"><a href="#about_me"><i class="fas fa-user-tie"></i>&nbsp;&nbsp;About Me</a></li><li style="line-height: 10px"><a href="#my_skills"><i class="fa fa-briefcase"></i>&nbsp;&nbsp;My Skills</a>&nbsp;&nbsp;</li><li style="line-height: 10px"><a href="#timeline"><i class="fas fa-chart-line"></i>&nbsp;&nbsp;Timeline</a></li><li style="line-height: 10px"><a href="#footer"><i class="fas fa-globe-asia"></i>&nbsp;&nbsp;<span id="gav-j" lang="ja-jp">雅敏</span></a></li></ul></div>
   <!--remove the next line and the floating box wil not be able to be toggled off --->
-  <div id="free" STYLE="display:none">
+  <div id="free" STYLE="display:none>
   <section id="home">
     <div class="blog-card"><top-x id="four"><button onClick="ShowAndHide()" style="background-color:darkslategrey;color:white;width:29px;height:29px;border-width:0px;" value="Click Me!!">X</button></top-x>
       <div class="column column1">
