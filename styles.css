@@ -292,12 +292,12 @@ background-color:#FFFF00;
 }
 
 .adv {
-  background-color: #47C6F0;
+  background-color: #74D2FC;  /* blue */
   color: white;
 }
 
 .pro {
-  background-color: #3A6E73; /* sage */
+  background-color: #6136E2; /* sage purple */
   color: white;
 }
 
@@ -308,47 +308,7 @@ background-color:#FFFF00;
 }
 
 
-/* --------------------------- Timeline --------------------------- */
-#timeline-title {
-  display: flex;
-  flex-direction: row;
-  padding: 0 60px 0 100px;
-}
-
-.timeline-title-item {
-  margin: 10px 80px 0 0;
-  font-family: 'Merriweather', serif;
-  text-align: center;
-  list-style-type: none;
-  font-size: 48px;
-  color: #3A6E73;
-}
-
-.timeline-bkg {
-    background: #7BA8B5;
-    width: 100%;
-}
-
-#timeline {
-  background: #E3DEC7;
-  position: relative;
-  width: 100%;
-  max-width: 1000px;
-  margin: auto;
-  padding: 15px 0;
-box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
-}
-
-#timeline::after {
-  content: '';
-  position: absolute;
-  width: 2px;
-  background: #3A6E73;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  margin-left: -1px;
-}
+/* --------------------------- Timeline - most deleted already --------------------------- */
 
 .container {
   padding: 15px 30px;
