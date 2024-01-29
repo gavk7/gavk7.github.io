@@ -189,7 +189,7 @@ cursor: pointer;
   z-index: 100;
   transform: translate(-50%, -50%);
   margin-top: 20px;
-   border:8px solid 3D5F4A;
+   border:2px solid #3D5F4A;
          -moz-border-radius: 10px;
     -webkit-border-radius: 35px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.16), -12px 7px 6px rgba(0, 0, 0, 0.23);
