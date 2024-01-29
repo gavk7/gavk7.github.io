@@ -94,7 +94,7 @@ a.gname {
 }
 
 a:hover {
-  color: #578694;
+  color: #B72351;
 }
 
 a.gname:hover {
@@ -103,6 +103,7 @@ a.gname:hover {
 
 .buzzword {
   font-weight: 600;
+color:#214448;
 }
 
 /* --------------------------- Headers --------------------------- */
