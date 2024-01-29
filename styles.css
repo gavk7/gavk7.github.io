@@ -122,48 +122,6 @@ h2 {
 
 i {font-size: 28px; color: white;}
 
-/* --------------------------- Nav Bar ---------------------------*/
-#top-nav {
-  overflow: hidden;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  width: 100%;fs
-  z-index: 100;
-    font-size: 26px;
-    font-family: 'Raleway', sans-serif;
-}
-
-#top-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  background-color: #62967c;
-  position: fixed;
-  width: 100%;
-}
-
-#top-nav li {
-  float: left;
-}
-
-#top-nav li a {
-  display: block;
-  color: white;
-  text-align: left;
-  padding: 18px 50px;
-  text-decoration: none;
-}
-
-#top-nav li a:hover {
-  background-color: #3A6E73; /* teal */
-}
-
-#gav-j {
-    font-size: 26px;
-    font-family: Noto+Serif+JP, sans-serif;
-}
-
 
 /* --------------------------- Profile Card --------------------------- */
 #home {font-variant-alternates: ;
