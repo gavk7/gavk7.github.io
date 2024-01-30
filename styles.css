@@ -28,7 +28,6 @@ html {
 body {
   background: #FFFFFF;
   margin: 0;
-  width: 100%;
 }
 
 p, blockquote {
@@ -125,7 +124,6 @@ h1 {
   background: #62967c; /* sage */
   font-size: 70px;
   line-height: 1.5;
-  width: 100%;
   padding-top: 160px;
   padding-left: 60px;
   margin-top: 0px;
@@ -292,7 +290,7 @@ background-color:#FFFF00;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  max-width: 1050px;
+  max-width: 700px;
   justify-content: center;
   margin: 43px auto 31px auto;
 }
