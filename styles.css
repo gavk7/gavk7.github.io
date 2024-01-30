@@ -74,13 +74,15 @@ blockquote {
   justify-content: space-between; /* Adds space between the boxes */
   display: flex;
   flex-direction: row;
-width:100%;
+  flex-wrap: wrap;
 }
 
 .boxy {
   padding-left: 3.8%;
   padding-right: 2.6%;
-width:40%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 padding-bottom:8px;
  /*    color: white; */
  /*    font-size:110%; */
@@ -95,7 +97,7 @@ padding-bottom:8px;
 }
   
 /* Responsive layout - makes a one column layout instead of a two-column layout */
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   .boxy-container {
     flex-direction: column;
   }
