@@ -215,8 +215,8 @@ cursor: pointer;
   margin-right: 2.6vh;
   border-radius: 2%;
 border:1px solid #1F1232;
-background-color: #79AFDD;
-/* ----- was  #B4F2FB --- */
+background-color: #E0E9DE;
+/* ----- was  #B4F2FB or sky blue - #79AFDD --- */
 box-shadow: 0px 3px 5px #000000;
   /*--box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.16), -12px 7px 6px rgba(0, 0, 0, 0.23);--*/
 }
